@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #010000;
+    background-color: bisque;
+    margin-left: 20px;
+}
+li{
+    text-indent:10px;
+    list-style-type: "☕";
+}
