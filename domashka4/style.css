@@ -1,0 +1,14 @@
+.box{
+    background: pink; 
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+ }
+ .conteiner{
+     background: palegoldenrod;
+     height: 700px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
