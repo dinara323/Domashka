@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(161, 222, 161);
+}
+.button{
+    background: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 30px;
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button:hover{
+    background-color: white;
+    animation-name: color;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 3;
+}
+
+@keyframes color{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+        background-color: green;
+    }
+}
