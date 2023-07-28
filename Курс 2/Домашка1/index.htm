@@ -7,16 +7,17 @@
 </head>
 <body>
     <script>
-        var month = prompt("Введите месяц")
-        if(month=="Август"){
-            alert("Отдых! Пора!");
+        var i=0;
+        var s=0, kolvo=0;
+        alert("Среднее арифметическое нечетных чисел до 10")
+        while(i<10){
+        i= i + 1;
+        if (i % 2 == 1){
+            s = s + i;
+            kolvo += 1
         }
-        if(month=="Сентябрь"){
-            alert("Кажется, вы уже отдохнули, следующий отпуск через год.");
         }
-        if(month=="Июль"){
-            alert("Остался месяц до отдыха!")
-        }
+        alert(s/kolvo);
     </script>
 </body>
 </html>
