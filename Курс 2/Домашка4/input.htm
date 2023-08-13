@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function task(){
+        alert("Работает. Не трогай!");
+    }
+    massiv=["«Молчание и улыбка – это два мощных оружия. Улыбка является способом решения многих проблем, молчание же помогает их избежать.»",
+        "«Когда человеку семнадцать и он знает всё, это нормально. Когда ему двадцать семь, и он по-прежнему знает всё, это значит, что ему всё ещё семнадцать»",
+        "«Как прекрасен мир, являющийся во снах: от загадочных глубин океана до сверкающих звезд вселенной…»"]
+
+    function mas(){
+        a = 0;
+        while(a<massiv.length){
+            alert(massiv[a]);
+            a++;
+        }
+    }
+</script>
+
+<body>
+    <p><input value="Работает?" onclick="task()" type="button"></p>
+    <p><input value="Хм" onclick="mas()" type="button"></p>
+</body>
+</html>
